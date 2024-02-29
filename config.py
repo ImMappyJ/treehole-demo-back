@@ -1,0 +1,12 @@
+IP = "localhost"
+PORT = 3306
+USER = "root"
+PWD = "123456"
+NAME = "TreeHole"
+SQLALCHEMY_DATABASE_URI = f"mysql+pymysql://{USER}:{PWD}@{IP}:{PORT}/{NAME}?charset=utf8mb4"
+MAIL_SERVER = "smtp.exmail.qq.com"
+MAIL_PORT = 465
+MAIL_USE_SSL = True
+MAIL_DEFAULT_SENDER = 'treehole@funworld.cc'
+MAIL_USERNAME = "treehole@funworld.cc"
+MAIL_PASSWORD = "Y2MKBS92k2xaGLdZ"
