@@ -1,5 +1,11 @@
 # How To Use
 
+- Install the requirements
+
+```
+pip install -r requirements.txt
+```
+
 - Edit your own configuration in config.py
 
 >IP = "localhost" # Your MySQL Address
